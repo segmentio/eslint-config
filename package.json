@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-segment",
+  "version": "0.0.1",
+  "description": "Segment's base ESLint configuration.",
+  "author": "Segment <friends@segment.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segmentio/eslint-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/segmentio/eslint-base/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "dependencies": {
+    "lodash.merge": "^3.2.1"
+  }
+}
