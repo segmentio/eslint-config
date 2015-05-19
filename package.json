@@ -7,10 +7,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segmentio/eslint-base.git"
+    "url": "git+https://github.com/segmentio/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/segmentio/eslint-base/issues"
+    "url": "https://github.com/segmentio/eslint-config/issues"
   },
   "keywords": [
     "eslint",
