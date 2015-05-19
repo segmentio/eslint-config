@@ -17,7 +17,7 @@ module.exports = merge(base, {
   },
 
   'rules': {
-    'handle-callback-err': [1, '^(err|error)$'],
+    'handle-callback-err': [1, '^(err|.+Err|error|.+Error)$'],
     'no-path-concat': 2,
     'no-sync': 1
   }
