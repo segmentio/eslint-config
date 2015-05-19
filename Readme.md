@@ -7,7 +7,7 @@ Segment's ESLint configurations.
 Install this config package and ESLint:
 
 ```bash
-$ npm install --save-dev eslint segment-eslint-config@"*"
+$ npm install --save-dev eslint eslint-config-segment
 ```
 
 ## Usage
@@ -27,6 +27,16 @@ A barebones `.eslintrc` looks like this:
 ```json
 {
   "extends": "segment"
+}
+```
+
+Is your test suite throwing all sorts of Mocha-related errors? Throw this in your `test/.eslintrc` (it'll inherit all your root `.eslintrc` settings, so no need to duplicate them here):
+
+```json
+{
+  "env": {
+    "mocha": true
+  }
 }
 ```
 
