@@ -46,13 +46,31 @@ module.exports = {
     'quotes': [2, 'single'],
     'radix': 2,
     'space-after-keywords': [2, 'always'],
-    'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
-    'space-in-brackets': [2, 'never'],
+    // FIXME: ESLint doesn't support our function brace style (`function(){}`)
+    // combined with our brace style (spaces, always) because it is, admittedly,
+    // an inconsistent style. We can either change our style or write a custom
+    // rule
+    //'space-before-blocks': [],
+    // FIXME: https://github.com/eslint/eslint/issues/2225
+    // What we want is this:
+    //   [1, 2, 3]
+    //   { a: 1, b: 2 }
+    //'space-in-brackets': [0, 'never'],
     'space-in-parens': [2, 'never'],
     'spaced-line-comment': [2, 'always'],
     'strict': [2, 'global'],
-    'valid-jsdoc': [1, { 'prefer': { 'returns': 'return' }, 'requireReturn': false, 'requireReturnDescription': false }],
+    // FIXME: https://github.com/eslint/eslint/issues/2108
+    // In order to really get benefit from this rule we need to either fix the
+    // above issue or stop adding a newline between our functions and their
+    // corresponding JSDoc block
+    'valid-jsdoc': [1, {
+      'prefer': {
+        'returns': 'return'
+      },
+      'requireReturn': false,
+      'requireReturnDescription': false
+    }],
     'wrap-iife': [2, 'outside'],
     'wrap-regex': 2,
     'yoda': [1, 'never']
