@@ -40,7 +40,7 @@ module.exports = {
     'no-use-before-define': [2, 'nofunc'],
     'no-void': 2,
     'one-var': [2, 'never'],
-    'operator-linebreak': [2, 'after'],
+    'operator-linebreak': [2, 'before'],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single'],
