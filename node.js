@@ -4,7 +4,7 @@
  * Dependencies.
  */
 
-var base = require('./index');
+var base = require('./');
 var merge = require('lodash.merge');
 
 /**
