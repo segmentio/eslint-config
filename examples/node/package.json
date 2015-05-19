@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-segment": "*",
+    "mocha": "*"
+  }
+}

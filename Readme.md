@@ -40,7 +40,7 @@ Is your test suite throwing all sorts of Mocha-related errors? Throw this in you
 }
 ```
 
-If your project is an integration worker, your `.eslintrc` might look something like this:
+If your project is a Node project, your `.eslintrc` might look something like this:
 
 ```json
 {
@@ -60,7 +60,11 @@ Likewise, if your project is a browser project that exposes the `analytics` glob
 }
 ```
 
+For more complex/real examples, see the [examples][] folder.
+
+
 For more details about how shareable configs work, see the [ESLint documentation][shareable configs].
 
 
+[examples]: /examples/
 [shareable configs]: http://eslint.org/docs/developer-guide/shareable-configs
