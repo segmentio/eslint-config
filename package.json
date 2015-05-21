@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-segment",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Segment's base ESLint configuration.",
   "author": "Segment <friends@segment.com>",
   "license": "MIT",
