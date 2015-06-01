@@ -11,7 +11,7 @@ var merge = require('lodash.merge');
  * Browser setttings.
  */
 
-module.exports = merge(base, {
+module.exports = merge({}, base, {
   env: {
     es6: true
   },
