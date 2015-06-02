@@ -47,6 +47,7 @@ module.exports = {
     'quotes': [2, 'single'],
     'radix': 2,
     'space-after-keywords': [2, 'always'],
+    'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
     'spaced-line-comment': [2, 'always'],
