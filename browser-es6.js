@@ -25,8 +25,7 @@ module.exports = merge({}, base, {
   rules: {
     'new-cap': 0,
     'no-extra-parens': 0,
-    'no-inline-comments': 0,
     'react/jsx-uses-react': [ 2, { pragma: 'dom' } ],
-    'space-before-function-paren': [ 2, { anonymous: 'always', named: 'never' } ]
+    'react/wrap-multilines': 2
   }
 });
