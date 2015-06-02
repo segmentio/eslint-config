@@ -27,7 +27,7 @@ module.exports = {
     'no-else-return': 2,
     'no-extra-parens': 2,
     'no-floating-decimal': 2,
-    'no-inline-comments': 1,
+    'no-inline-comments': 0,
     'no-lonely-if': 2,
     'no-multiple-empty-lines': [2, {'max': 2}],
     'no-nested-ternary': 2,

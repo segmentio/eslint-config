@@ -21,5 +21,10 @@ module.exports = merge({}, base, {
   },
   plugins: [
     'react'
-  ]
+  ],
+  rules: {
+    'no-extra-parens': 0,
+    'react/jsx-uses-react': [ 2, { pragma: 'dom' } ],
+    'react/wrap-multilines': 2
+  }
 });
