@@ -46,7 +46,7 @@ module.exports = {
     'quotes': [2, 'single'],
     'radix': 2,
     'space-after-keywords': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, { anonymous: 'always', named: 'never' }],
     // FIXME: ESLint doesn't support our function brace style (`function(){}`)
     // combined with our brace style (spaces, always) because it is, admittedly,
     // an inconsistent style. We can either change our style or write a custom
