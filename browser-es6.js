@@ -23,7 +23,6 @@ module.exports = merge({}, base, {
     'react'
   ],
   rules: {
-    'new-cap': 0,
     'no-extra-parens': 0,
     'react/jsx-uses-react': [ 2, { pragma: 'dom' } ],
     'react/wrap-multilines': 2
