@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     // We deal with snake_case in a lot of integrations, so disable this. But generally, follow this rule.
     'camelcase': 0,
