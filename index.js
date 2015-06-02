@@ -40,6 +40,7 @@ module.exports = {
     'no-use-before-define': [2, 'nofunc'],
     'no-void': 2,
     'one-var': [2, 'never'],
+    'object-curly-spacing': [2, 'always'],
     'operator-linebreak': [2, 'before'],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'as-needed'],
@@ -47,16 +48,6 @@ module.exports = {
     'radix': 2,
     'space-after-keywords': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
-    // FIXME: ESLint doesn't support our function brace style (`function(){}`)
-    // combined with our brace style (spaces, always) because it is, admittedly,
-    // an inconsistent style. We can either change our style or write a custom
-    // rule
-    //'space-before-blocks': [],
-    // FIXME: https://github.com/eslint/eslint/issues/2225
-    // What we want is this:
-    //   [1, 2, 3]
-    //   { a: 1, b: 2 }
-    //'space-in-brackets': [0, 'never'],
     'space-in-parens': [2, 'never'],
     'spaced-line-comment': [2, 'always'],
     'strict': [2, 'global'],
