@@ -24,8 +24,8 @@ module.exports = merge({}, base, {
   ],
   rules: {
     'no-extra-parens': 0,
-    'react/jsx-quotes': 2,
-    'react/jsx-uses-react': [ 2, { pragma: 'dom' } ],
+    'react/jsx-quotes': [2, 'double'],
+    'react/jsx-uses-react': [2, { pragma: 'dom' }],
     'react/self-closing-comp': 2,
     'react/wrap-multilines': 2
   }
