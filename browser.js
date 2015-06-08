@@ -20,5 +20,10 @@ module.exports = merge({}, base, {
     // We frequently use console.log in development, and most of our libraries
     // will depend on linting success to run tests
     'no-console': 1
+  },
+  globals: {
+    require: false,
+    module: true,
+    exports: true
   }
 });
