@@ -22,6 +22,8 @@ module.exports = merge({}, base, {
     'no-console': 1
   },
   globals: {
-    require: false
+    require: false,
+    module: true,
+    exports: true
   }
 });
