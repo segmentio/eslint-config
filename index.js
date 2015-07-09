@@ -32,6 +32,7 @@ module.exports = {
     'no-multiple-empty-lines': [2, {'max': 2}],
     'no-nested-ternary': 2,
     'no-new-require': 2,
+    'no-redeclare': 2,
     'no-self-compare': 2,
     'no-shadow': 0,
     'no-throw-literal': 2,
