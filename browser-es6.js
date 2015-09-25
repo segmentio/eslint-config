@@ -24,9 +24,13 @@ module.exports = merge({}, base, {
   ],
   rules: {
     'no-extra-parens': 0,
+    'react/jsx-curly-spacing': 2,
+    'react/jsx-no-undef': 2,
+    'react/jsx-closing-bracket-location': [2, 'after-props'],
+    'react/jsx-indent-props': [2, 2],
+    'react/jsx-no-duplicate-props': 2,
     'react/jsx-quotes': [2, 'double'],
     'react/jsx-uses-react': [2, { pragma: 'element' }],
-    'react/jsx-no-undef': 2,
     'react/self-closing-comp': 2,
     'react/wrap-multilines': 2
   }
