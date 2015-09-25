@@ -51,7 +51,7 @@ module.exports = {
     'space-before-blocks': [1, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
-    'spaced-line-comment': [2, 'always'],
+    'spaced-comment': [2, 'always'],
     'strict': [2, 'global'],
     // FIXME: https://github.com/eslint/eslint/issues/2108
     // In order to really get benefit from this rule we need to either fix the

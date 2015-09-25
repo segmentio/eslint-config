@@ -26,6 +26,7 @@ module.exports = merge({}, base, {
     'no-extra-parens': 0,
     'react/jsx-quotes': [2, 'double'],
     'react/jsx-uses-react': [2, { pragma: 'element' }],
+    'react/jsx-no-undef': 2,
     'react/self-closing-comp': 2,
     'react/wrap-multilines': 2
   }
