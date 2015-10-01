@@ -44,7 +44,7 @@ module.exports = {
     'object-curly-spacing': [1, 'always'],
     'operator-linebreak': [2, 'before'],
     'padded-blocks': [2, 'never'],
-    'quote-props': [2, 'as-needed'],
+    'quote-props': [2, 'consistent-as-needed'],
     'quotes': [2, 'single'],
     'radix': 2,
     'space-after-keywords': [2, 'always'],
