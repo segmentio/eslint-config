@@ -12,7 +12,7 @@ var dummy   =  require('../lib');
  */
 
 describe("test", function() {
-it('should exist',function() {
-      assert(dummy)
-});
+  it('should exist',function() {
+    assert(dummy)
+  });
 });
