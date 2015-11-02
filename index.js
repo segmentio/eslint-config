@@ -68,6 +68,10 @@ module.exports = {
     'no-unused-vars': 2,
     'no-use-before-define': [2, 'nofunc'],
     'no-void': 2,
+    'no-warning-comments': [1, {
+      'terms': ['todo', 'fixme', 'xxx', 'hack'],
+      'location': 'start'
+    }],
     'one-var': [2, 'never'],
     'object-curly-spacing': [1, 'always'],
     'operator-linebreak': [2, 'before'],
