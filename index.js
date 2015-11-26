@@ -79,6 +79,7 @@ module.exports = {
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single'],
     'radix': 2,
+    'require-jsdoc': 1,
     'semi': [2, 'always'],
     'space-after-keywords': [2, 'always'],
     'space-before-blocks': [1, 'always'],
@@ -87,10 +88,6 @@ module.exports = {
     'spaced-comment': [2, 'always'],
     'strict': [2, 'global'],
     'use-isnan': 2,
-    // FIXME: https://github.com/eslint/eslint/issues/2108
-    // In order to really get benefit from this rule we need to either fix the
-    // above issue or stop adding a newline between our functions and their
-    // corresponding JSDoc block
     'valid-jsdoc': [1, {
       'prefer': {
         'returns': 'return'
