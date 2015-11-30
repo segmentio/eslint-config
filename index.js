@@ -12,7 +12,7 @@ module.exports = {
     'camelcase': 0,
     'comma-dangle': 2,
     'comma-style': [2, 'last'],
-    'consistent-this': [0, 'self'],
+    'consistent-this': [1, 'self'],
     'curly': [2, 'multi-line'],
     'default-case': 2,
     'dot-location': [2, 'property'],
