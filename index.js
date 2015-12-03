@@ -79,6 +79,7 @@ module.exports = {
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single'],
     'radix': 2,
+    'require-yield': 1,
     'semi': [2, 'always'],
     'space-after-keywords': [2, 'always'],
     'space-before-blocks': [1, 'always'],
