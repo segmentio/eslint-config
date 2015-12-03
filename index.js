@@ -56,6 +56,11 @@ module.exports = {
     'no-octal': 2,
     'no-redeclare': 2,
     'no-regex-spaces': 2,
+    'no-restricted-syntax': [
+      1,
+      "ClassDeclaration",
+      "WithStatement"
+    ],
     'no-self-compare': 2,
     'no-shadow': 0,
     'no-sparse-arrays': 2,
