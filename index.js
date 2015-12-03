@@ -17,6 +17,7 @@ module.exports = {
     'default-case': 2,
     'dot-location': [2, 'property'],
     'dot-notation': [2, { 'allowKeywords': true }],
+    'eqeqeq': [1, 'allow-null'],
     'generator-star-spacing': [2, 'after'],
     'guard-for-in': 2,
     'indent': [2, 2],
