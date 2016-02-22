@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    'arrow-parens': [2, 'always'],
+    'arrow-spacing': [2, { 'before': true, 'after': true }],
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'camelcase': [1, { 'properties': 'never' }],
     'comma-dangle': 2,
@@ -30,6 +32,7 @@ module.exports = {
     'no-case-declarations': 2,
     'no-class-assign': 2,
     'no-cond-assign': 2,
+    'no-confusing-arrow': 2,
     'no-const-assign': 2,
     'no-constant-condition': 2,
     'no-control-regex': 2,
@@ -113,6 +116,7 @@ module.exports = {
     'valid-typeof': 2,
     'wrap-iife': [2, 'outside'],
     'wrap-regex': 2,
+    'yield-star-spacing': [2, { 'before': false, 'after': true }],
     'yoda': [1, 'never']
   }
 };
