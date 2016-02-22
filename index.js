@@ -19,6 +19,7 @@ module.exports = {
     'generator-star-spacing': [2, 'after'],
     'guard-for-in': 2,
     'indent': [2, 2],
+    'keyword-spacing': 2,
     'max-depth': [1, 6],
     'max-len': [1, 100, 2],
     'max-nested-callbacks': [1, 6],
@@ -79,12 +80,11 @@ module.exports = {
     'quotes': [2, 'single'],
     'radix': 2,
     'semi': [2, 'always'],
-    'space-after-keywords': [2, 'always'],
     'space-before-blocks': [1, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
     'spaced-comment': [2, 'always'],
-    'strict': [2, 'global'],
+    'strict': [2, 'safe'],
     'use-isnan': 2,
     // FIXME: https://github.com/eslint/eslint/issues/2108
     // In order to really get benefit from this rule we need to either fix the

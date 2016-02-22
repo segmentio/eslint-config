@@ -15,9 +15,11 @@ module.exports = merge({}, base, {
   env: {
     es6: true
   },
-  ecmaFeatures: {
-    modules: true,
-    jsx: true
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   plugins: [
     'react'
