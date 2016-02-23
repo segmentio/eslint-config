@@ -4,6 +4,7 @@ module.exports = {
   "extends": "@segment/eslint-config",
 
   "env": {
+    "es6": true,
     "node": true
   },
 
