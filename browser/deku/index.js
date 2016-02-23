@@ -1,17 +1,18 @@
 'use strict';
 
 module.exports = {
-  "extends": "@segment/eslint-config",
+  "extends": "@segment/eslint-config/browser",
 
   "env": {
     "es6": true
   },
 
   "parserOptions": {
-    "ecmaVersion": 6,
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
   },
 
   "plugins": [
