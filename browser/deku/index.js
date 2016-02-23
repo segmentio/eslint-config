@@ -28,6 +28,7 @@ module.exports = {
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-uses-react": [2, { pragma: "element" }],
+    "react/jsx-uses-vars": 2,
     "react/self-closing-comp": 2,
     "react/wrap-multilines": 2
   }
