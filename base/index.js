@@ -8,6 +8,7 @@ module.exports = {
     "camelcase": [1, { "properties": "never" }],
     "comma-dangle": 2,
     "comma-style": [2, "last"],
+    "complexity": [1, 11],
     "consistent-this": [1, "self"],
     "constructor-super": 2,
     "curly": [2, "multi-line"],
