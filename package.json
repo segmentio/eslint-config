@@ -1,7 +1,7 @@
 {
   "name": "@segment/eslint-config",
   "version": "3.0.0",
-  "description": "Segment's base ESLint configuration.",
+  "description": "Segment's ESLint configurations.",
   "author": "Segment <friends@segment.com>",
   "license": "MIT",
   "main": "index.js",
