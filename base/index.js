@@ -82,14 +82,14 @@ module.exports = {
       "location": "start"
     }],
     "one-var": [2, "never"],
-    "object-curly-spacing": [1, "always"],
+    "object-curly-spacing": [2, "always"],
     "operator-linebreak": [2, "before"],
     "padded-blocks": [2, "never"],
     "quote-props": [2, "as-needed"],
     "quotes": [2, "single"],
     "radix": 2,
     "semi": [2, "always"],
-    "space-before-blocks": [1, "always"],
+    "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "spaced-comment": [2, "always"],
@@ -110,6 +110,6 @@ module.exports = {
     "wrap-iife": [2, "outside"],
     "wrap-regex": 2,
     "yield-star-spacing": [2, { "before": false, "after": true }],
-    "yoda": [1, "never"]
+    "yoda": [2, "never"]
   }
 };
