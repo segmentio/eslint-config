@@ -85,6 +85,7 @@ module.exports = {
     "object-curly-spacing": [2, "always"],
     "operator-linebreak": [2, "before"],
     "padded-blocks": [2, "never"],
+    "prefer-const": 1,
     "quote-props": [2, "as-needed"],
     "quotes": [2, "single"],
     "radix": 2,
