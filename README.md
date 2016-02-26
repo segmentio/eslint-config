@@ -1,4 +1,4 @@
-# eslint-config-segment
+# @segment/eslint-config
 
 Segment's ESLint configurations.
 
