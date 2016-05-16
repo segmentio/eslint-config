@@ -1,3 +1,8 @@
+3.1.1 / 2016-05-16
+==================
+
+* Fix `circle.yml` npm authentication configuration
+
 3.1.0 / 2016-05-16
 ==================
 
