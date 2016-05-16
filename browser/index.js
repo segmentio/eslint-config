@@ -4,13 +4,8 @@ module.exports = {
   "extends": "@segment/eslint-config",
 
   "env": {
-    "browser": true
-  },
-
-  "globals": {
-    "exports": true,
-    "module": true,
-    "require": false
+    "browser": true,
+    "commonjs": true
   },
 
   "rules": {
