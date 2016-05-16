@@ -1,3 +1,9 @@
+3.1.0 / 2016-05-16
+==================
+
+* Add ES3 configuration to `browser/legacy` config
+* Replace CommonJS `globals` in `browser` config with `env.commonjs: true`
+
 3.0.0 / 2016-02-23
 ========================
 
