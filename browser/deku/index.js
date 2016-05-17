@@ -20,16 +20,16 @@ module.exports = {
   ],
 
   "rules": {
-    "jsx-quotes": 2,
-    "no-extra-parens": 0,
-    "react/jsx-closing-bracket-location": [2, "after-props"],
-    "react/jsx-curly-spacing": 2,
-    "react/jsx-indent-props": [2, 2],
-    "react/jsx-no-duplicate-props": 2,
-    "react/jsx-no-undef": 2,
-    "react/jsx-uses-react": [2, { pragma: "element" }],
-    "react/jsx-uses-vars": 2,
-    "react/self-closing-comp": 2,
-    "react/wrap-multilines": 2
+    "jsx-quotes": "error",
+    "no-extra-parens": "off",
+    "react/jsx-closing-bracket-location": ["error", "after-props"],
+    "react/jsx-curly-spacing": "error",
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-uses-react": ["error", { pragma: "element" }],
+    "react/jsx-uses-vars": "error",
+    "react/self-closing-comp": "error",
+    "react/wrap-multilines": "error"
   }
 };

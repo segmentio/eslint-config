@@ -17,11 +17,11 @@ module.exports = {
   ],
 
   "rules": {
-    "handle-callback-err": [1, "^(err|.+Err|error|.+Error)$"],
-    "no-path-concat": 2,
-    "no-sync": 2,
-    "require-path-exists/exists": 2,
-    "require-path-exists/notEmpty": 2,
-    "require-path-exists/tooManyArguments": 2
+    "handle-callback-err": ["warn", "^(err|.+Err|error|.+Error)$"],
+    "no-path-concat": "error",
+    "no-sync": "error",
+    "require-path-exists/exists": "error",
+    "require-path-exists/notEmpty": "error",
+    "require-path-exists/tooManyArguments": "error"
   }
 };

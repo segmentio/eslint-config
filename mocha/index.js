@@ -11,10 +11,10 @@ module.exports = {
 
   "rules": {
     // Deeply nested functions are a reality of Mocha+BDD, so permit them
-    "max-nested-callbacks": 0,
-    "mocha/handle-done-callback": 2,
-    "mocha/no-exclusive-tests": 2,
-    "mocha/no-global-tests": 2,
-    "require-jsdoc": 0
+    "max-nested-callbacks": "off",
+    "mocha/handle-done-callback": "error",
+    "mocha/no-exclusive-tests": "error",
+    "mocha/no-global-tests": "error",
+    "require-jsdoc": "off"
   }
 };
