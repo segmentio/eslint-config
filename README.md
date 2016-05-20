@@ -7,7 +7,7 @@ Segment's ESLint configurations.
 Install this config package and ESLint:
 
 ```sh
-$ npm install --save-dev eslint-config-segment
+$ npm install --save-dev @segment/eslint-config
 ```
 
 Next, install any necessary peer dependencies warned about when you ran the above command.
