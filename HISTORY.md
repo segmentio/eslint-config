@@ -1,3 +1,9 @@
+3.2.0 / 2016-05-20
+==================
+
+* Disallow use of global `JSON` in legacy environments
+* Increase severity of `consistent-this`, `eqeqeq`, `prefer-const` rules to errors
+
 3.1.1 / 2016-05-16
 ==================
 
