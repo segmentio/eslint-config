@@ -106,6 +106,7 @@ module.exports = {
         "returns": "return"
       },
       "requireReturn": false,
+      "requireParamDescription": false,
       "requireReturnDescription": false
     }],
     "valid-typeof": "error",
