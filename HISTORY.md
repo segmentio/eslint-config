@@ -1,3 +1,9 @@
+3.4.0 / 2016-09-01
+==================
+
+  * Disable generator-star-spacing given its inconsistency with other rules
+    https://github.com/eslint/eslint/issues/6195
+
 3.3.0 / 2016-08-08
 ==================
 
