@@ -16,7 +16,8 @@ module.exports = {
     "dot-location": ["error", "property"],
     "dot-notation": ["error", { "allowKeywords": true }],
     "eqeqeq": ["error", "allow-null"],
-    "generator-star-spacing": ["error", "after"],
+    // https://github.com/eslint/eslint/issues/6195
+    // "generator-star-spacing": ["error", "after"],
     "guard-for-in": "error",
     "indent": ["error", 2],
     "keyword-spacing": "error",
