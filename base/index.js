@@ -63,7 +63,7 @@ module.exports = {
     "no-octal": "error",
     "no-redeclare": "error",
     "no-regex-spaces": "error",
-    "no-restricted-syntax": ["error", "ClassDeclaration", "WithStatement"],
+    "no-restricted-syntax": ["error", "WithStatement"],
     "no-self-assign": "error",
     "no-self-compare": "error",
     "no-shadow": "off",
