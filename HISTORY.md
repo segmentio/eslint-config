@@ -1,6 +1,11 @@
 5.0.0 / 2019-06-07
 ==================
 
+  * Publish server config as an independent submodule
+
+5.0.0 / 2019-06-07
+==================
+
   * Update to ESLint 5
   * Update server config to use Airbnb and Prettier
 
