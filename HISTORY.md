@@ -1,3 +1,9 @@
+5.0.0 / 2019-06-07
+==================
+
+  * Update to ESLint 5
+  * Update server config to use Airbnb and Prettier
+
 
 4.0.0 / 2018-06-20
 ==================
@@ -54,7 +60,7 @@
 ### `2.x` to `3.x` Upgrade Guide
 
 Updating from 2.x to 3.x
-  
+
 To upgrade your existing configurations, first upgrade your eslint-config dependency:
 
 ```sh
